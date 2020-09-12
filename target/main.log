@@ -1,0 +1,132 @@
+11:34:35.149 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:34:35.554 request:
+1 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/credit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 209
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 172.23.19.54:30004
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"amount":100,"channelName":"THUNESIMT","country":"KENYA","currency":"KES","extTRID":51244189193,"msisdn":"781871006","mtcn":52,"payerCountry":"Uganda","payerFirstName":"Thunes Ousmane","payerLastName":"Test"}
+
+11:34:37.108 response time in milliseconds: 1552.60
+1 < 200
+1 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:36 GMT
+1 < Content-Length: 283
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 09 Sep 2020 06:04:36 GMT
+{"txnID":"2b1197a43a7244feb219e4894b843884","status":"200","message":"24506842214 confirmed. You have deposited Ksh 100 to Askah Omosa 0781871006 on 09/09/20 at 09:04 AM. New float balance is Ksh 396,638. Get 10% bonus airtime when you top up with 50 bob or more using Airtel Money"}
+
+11:34:37.126 request:
+2 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/refund
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 88
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: 172.23.19.54:30004
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"channelName":"THUNESIMT","country":"KENYA","txnID":"2b1197a43a7244feb219e4894b843884"}
+
+11:34:38.519 response time in milliseconds: 1392.83
+2 < 200
+2 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:37 GMT
+2 < Content-Length: 79
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Wed, 09 Sep 2020 06:04:38 GMT
+{"txnID":"2b1197a43a7244feb219e4894b843884","status":"200","message":"Success"}
+
+11:34:38.534 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:34:38.535 request:
+1 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/credit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 209
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 172.23.19.54:30004
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"amount":100,"channelName":"THUNESIMT","country":"KENYA","currency":"KES","extTRID":51244189173,"msisdn":"781871006","mtcn":52,"payerCountry":"Uganda","payerFirstName":"Thunes Ousmane","payerLastName":"Test"}
+
+11:34:39.747 response time in milliseconds: 1210.99
+1 < 200
+1 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:39 GMT
+1 < Content-Length: 283
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 09 Sep 2020 06:04:39 GMT
+{"txnID":"ba775bdcec8640eaa6a355e9e000694c","status":"200","message":"24506842216 confirmed. You have deposited Ksh 100 to Askah Omosa 0781871006 on 09/09/20 at 09:04 AM. New float balance is Ksh 396,637. Get 10% bonus airtime when you top up with 50 bob or more using Airtel Money"}
+
+11:34:39.751 request:
+2 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/refund
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 88
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: 172.23.19.54:30004
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"channelName":"THUNESIMT","country":"KENYA","txnID":"ba775bdcec8640eaa6a355e9e000694c"}
+
+11:34:40.697 response time in milliseconds: 945.31
+2 < 200
+2 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:40 GMT
+2 < Content-Length: 79
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Wed, 09 Sep 2020 06:04:40 GMT
+{"txnID":"ba775bdcec8640eaa6a355e9e000694c","status":"200","message":"Success"}
+
+11:34:40.704 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:34:40.705 request:
+1 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/credit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 209
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 172.23.19.54:30004
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"amount":100,"channelName":"THUNESIMT","country":"KENYA","currency":"KES","extTRID":51244189182,"msisdn":"781871006","mtcn":52,"payerCountry":"Uganda","payerFirstName":"Thunes Ousmane","payerLastName":"Test"}
+
+11:34:41.599 response time in milliseconds: 892.09
+1 < 400
+1 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:41 GMT
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 09 Sep 2020 06:04:40 GMT
+1 < Transfer-Encoding: chunked
+{"status":"521050","error":"Bad request from the customer","message":"Duplicate exttRID"}
+
+11:34:41.601 status code was: 400, expected: 200, response time: 892, url: http://172.23.19.54:30004/openapi/moneytransfer/v1/credit, response: {"error":"Bad request from the customer","message":"Duplicate exttRID","status":"521050"}
+11:34:41.613 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:34:41.615 request:
+1 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/credit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 209
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 172.23.19.54:30004
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"amount":100,"channelName":"THUNESIMT","country":"KENYA","currency":"KES","extTRID":51244189163,"msisdn":"781871006","mtcn":52,"payerCountry":"Uganda","payerFirstName":"Thunes Ousmane","payerLastName":"Test"}
+
+11:34:43.647 response time in milliseconds: 2031.47
+1 < 200
+1 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:42 GMT
+1 < Content-Length: 283
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 09 Sep 2020 06:04:43 GMT
+{"txnID":"4437b86d87e3439f90e6a52870374b36","status":"200","message":"24506842218 confirmed. You have deposited Ksh 100 to Askah Omosa 0781871006 on 09/09/20 at 09:04 AM. New float balance is Ksh 396,635. Get 10% bonus airtime when you top up with 50 bob or more using Airtel Money"}
+
+11:34:43.651 request:
+2 > POST http://172.23.19.54:30004/openapi/moneytransfer/v1/refund
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 88
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: 172.23.19.54:30004
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+{"channelName":"THUNESIMT","country":"KENYA","txnID":"4437b86d87e3439f90e6a52870374b36"}
+
+11:34:44.600 response time in milliseconds: 949.07
+2 < 200
+2 < ASP-Res-Timestamp: Wed, 9 Sep 2020 06:04:44 GMT
+2 < Content-Length: 79
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Wed, 09 Sep 2020 06:04:43 GMT
+{"txnID":"4437b86d87e3439f90e6a52870374b36","status":"200","message":"Success"}
+
