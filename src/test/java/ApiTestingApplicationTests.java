@@ -1,10 +1,9 @@
-package africa.airtel.mfsapitesting;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import com.intuit.karate.junit5.Karate;
 
 @SpringBootTest
-class MfsApiTestingApplicationTests {
+class ApiTestingApplicationTests {
 
 	@Test
 	void contextLoads() {
