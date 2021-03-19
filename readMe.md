@@ -15,18 +15,25 @@ Clone the repository
 
 Install required dependencies
 ```sh
-  > mvn install
+  > mvn clean install
 ```
 
 Test Your APIs
 ```sh
   > mvn test
+  > Check the report in Report Directory!
 ```
 
 Run Using IDE
 - Import into IDE
 - Install Required Dependencies
-- Go to Sample.java and Run as Junit
+- To Run All Test Cases - Go to ApiTestingApplicationTests
+    - Execute testAllFeatureFiles and it'd execute all test cases and generate two different reports. Check the report in report directory.
+    - Execute testApis and it'd execute given feature files and generate the default report. Check it in the target directory.
+- To Run a single feature file, go to the relative class file of the feature file.
+    - Execute the method in the class and it'd generate the default report in the target directory.
+    - For Example, Go to TypiCode directory and run method inside the TypiCode Java Class.
+
 
 
 ### License
